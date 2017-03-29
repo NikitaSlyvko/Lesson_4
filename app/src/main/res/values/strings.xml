@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lesson_4</string>
+    <string name="start_view">City Quiz</string>
+    <string name="start_button">Start</string>
+    <string name="r1_a1">New York</string>
+    <string name="r2_a1">Las Vegas</string>
+    <string name="button_result">Submit</string>
+    <string name="r1_b1">Rome</string>
+    <string name="r2_b1">Paris</string>
+    <string name="r1_c1">Rome</string>
+    <string name="r2_c1">Greece</string>
+    <string name="r1_d1">London</string>
+    <string name="r2_d1">Warsaw</string>
+    <string name="r1_e1">Berlin</string>
+    <string name="r2_e1">Barcelona</string>
+    <string name="result">Result</string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a1"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <RadioGroup android:id="@+id/group_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/r1_a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r1_a1"/>
+            <RadioButton android:id="@+id/r2_a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r2_a1"/>
+        </RadioGroup>
+        <Button android:id="@+id/result_a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_result"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b1"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <RadioGroup android:id="@+id/group_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/r1_b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r1_b1"/>
+            <RadioButton android:id="@+id/r2_b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r2_b1"/>
+        </RadioGroup>
+        <Button android:id="@+id/result_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_result"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c1"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <RadioGroup android:id="@+id/group_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/r1_c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r2_c1"/>
+            <RadioButton android:id="@+id/r2_c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r1_c1"/>
+        </RadioGroup>
+        <Button android:id="@+id/result_c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_result"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/d1"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <RadioGroup android:id="@+id/group_d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/r1_d1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r1_d1"/>
+            <RadioButton android:id="@+id/r2_d1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r2_d1"/>
+        </RadioGroup>
+        <Button android:id="@+id/result_d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_result"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/e1"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <RadioGroup android:id="@+id/group_e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/r1_e1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r1_e1"/>
+            <RadioButton android:id="@+id/r2_e1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r2_e1"/>
+        </RadioGroup>
+        <Button android:id="@+id/result_e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_result"/>
+        <Button android:id="@+id/buton_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result"/>
+    </LinearLayout>
+</ScrollView>
